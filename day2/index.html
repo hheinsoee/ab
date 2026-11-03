@@ -4,27 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Day 2 — Color Changer</title>
+
+    <!-- CSS file ကို ဒီမှာ link လုပ်တယ် -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="m-4">
-    <div class="mybtn">
-        hello
-    </div>
-    <hr>
-    <div class="mybtn">
-        Car
-    </div>
-    <hr>
-    <div class="mybtn">
-        Apple
-    </div>
+<body>
+    <!-- id="heading" — JS က ဒီ id နဲ့ ရှာမယ် -->
+    <h1 id="heading">Hello, builders!</h1>
+
+    <!-- id="colorBtn" — JS က ဒီ button ကို နားထောင်မယ် -->
+    <button id="colorBtn">Change color</button>
+
+    <!-- JS file ကို body အောက်ဆုံးမှာ ထည့် -->
+    <script src="script.js"></script>
 </body>
-<script>
-    document.querySelectorAll('.mybtn').forEach(button => {
-        button.className = "inline bg-blue-500 hover:bg-blue-900 text-white px-4 rounded-md my-20";
-    });
-</script>
 
 </html>
