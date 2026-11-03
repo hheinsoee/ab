@@ -1,4 +1,4 @@
-# theBuilderPros — Class Progress
+# Absolute Beginner — Class Progress
 
 **Course 0 — Adaptive Production Builder**
 
