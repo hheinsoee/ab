@@ -14,6 +14,7 @@ Live: **http://git.heinsoe.com/ab/**
 |---|---|---|---|
 | 1 | Landing page (HTML + CSS) | [`day1/`](./day1/) | [View](./day1/) |
 | 2 | Color changer (HTML + CSS + JS) | [`day2/`](./day2/) | [View](./day2/) |
+| 3 | Variables & data types (Node.js) | [`day3/`](./day3/) | `node day3/variable.js` |
 
 ---
 
