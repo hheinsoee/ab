@@ -49,7 +49,7 @@ function task3() {
 }
 
 
-// ===== ⭐ Challenge =====
+// ===== Part 5 — introduce + getAge =====
 
 // 1. introduce(person) — parameter တစ်ခုတည်း (object)
 function introduce(person) {
