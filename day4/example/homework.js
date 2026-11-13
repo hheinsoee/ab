@@ -19,7 +19,7 @@ function task1() {
 }
 
 
-// ===== Task 3 — Function ကို object နဲ့ ခေါ် =====
+// ===== Task 2 — Function ကို object နဲ့ ခေါ် =====
 function getPersonInfo(name, dob, gender) {
     console.log(name + " was born in " + dob)
     const age = new Date().getFullYear() - dob;
@@ -32,13 +32,13 @@ function getPersonInfo(name, dob, gender) {
     }
 }
 
-function task3() {
+function task2() {
     getPersonInfo(me.name, me.dob, me.gender)
 }
 
 
-// ===== Task 4 — Condition =====
-function task4() {
+// ===== Task 3 — Condition =====
+function task3() {
     const myAge = new Date().getFullYear() - me.dob;
 
     if (myAge >= 18 && me.city === "Yangon") {
