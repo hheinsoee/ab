@@ -1,11 +1,14 @@
 // ===== Task 1 — ကိုယ့်ကိုယ်ကို object တစ်ခု =====
 const me = {
-    name: "Kyaw Kyaw",
-    dob: 2000,
-    gender: "male",
-    city: "Yangon",
-    hobbies: ["football", "music", "coding"],
-    mother: {
+    name: "Kyaw Kyaw",                          // string
+    dob: 2000,                                  // number
+    gender: "male",                             // string
+    city: "Yangon",                             // string
+    isStudent: true,                            // boolean
+    email: undefined,                           // undefined — ဘာမှ မထည့်ရသေး
+    car: null,                                  // null — မရှိဘူး လို့ ကိုယ်တိုင်ထည့်
+    hobbies: ["football", "music", "coding"],   // array
+    mother: {                                   // object
         name: "Daw Mya",
         dob: 1970
     }
